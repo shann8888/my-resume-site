@@ -1,58 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="Discover Hesshan Panjacharam's sporting interests: football, golf, and badminton.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Outside studies and work: Hesshan Panjacharam&#x27;s interests in football, golf, and badminton.">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0c1419">
+    <meta property="og:title" content="Hobbies | Hesshan Panjacharam">
+    <meta property="og:description" content="Outside studies and work: Hesshan Panjacharam&#x27;s interests in football, golf, and badminton.">
+    <meta property="og:type" content="website">
     <title>Hobbies | Hesshan Panjacharam</title>
+    <!-- Set the saved theme before the stylesheet paints the page. -->
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <h1>Hesshan Panjacharam</h1>
-    <p>IT Student | Web Development &amp; IT Support</p>
-    <p>Bayan Lepas, Penang, Malaysia</p>
-
-    <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="hobbies.html" aria-current="page">Hobbies</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<body id="top">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Hesshan Panjacharam home">
+            <span class="brand-mark" aria-hidden="true">HP</span>
+            <span class="brand-name">Hesshan<span>Panjacharam</span></span>
+        </a>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+            <ul><li><a href="index.html">Home</a></li><li><a href="hobbies.html" aria-current="page">Hobbies</a></li><li><a href="contact.html">Contact</a></li></ul>
+        </nav>
+        <div class="header-actions">
+            <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+                <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.8 13.2Z"/></svg>
+            </button>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span>Menu</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+            </button>
+        </div>
+    </div>
 </header>
+<main id="main-content" tabindex="-1">
+    <section class="page-hero container">
+        <p class="eyebrow hero-entry">OUTSIDE WORK &amp; STUDY</p>
+        <h1 class="hero-entry">A little beyond<br><em>technology.</em></h1>
+        <p class="page-intro hero-entry">Outside my studies and work, I enjoy playing football, golf, and badminton.</p>
+    </section>
+    <section class="container hobbies-section" aria-labelledby="hobbies-heading">
+        <h2 class="visually-hidden" id="hobbies-heading">Hobbies &amp; Interests</h2>
+        <div class="sports-grid">
+            <article class="sport-card reveal">
+                <span class="sport-illustration"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m12 7 5 4-2 6H9l-2-6 5-4Zm0 0V2m5 9 5-2m-7 8 3 4m-9-4-3 4m1-10L2 9"/></svg></span>
+                <h3>Football</h3><p>Football is one of the sports I enjoy playing. It combines teamwork, communication, and quick decision-making on the pitch.</p>
+            </article>
+            <article class="sport-card reveal">
+                <span class="sport-illustration"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21V3l11 4-11 4"/><ellipse cx="12" cy="21" rx="8" ry="1.5"/><circle cx="18" cy="16" r="1"/></svg></span>
+                <h3>Golf</h3><p>I also enjoy playing golf. The sport involves concentration, patience, and careful shot selection.</p>
+            </article>
+            <article class="sport-card reveal">
+                <span class="sport-illustration"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="13" cy="8" rx="6" ry="7" transform="rotate(30 13 8)"/><path d="m10 14-6 8m3-3-2-2m5-13 7 8m-9-5 7 8m0-13-6 10m9-8-6 10"/></svg></span>
+                <h3>Badminton</h3><p>Badminton is another sporting interest of mine. Its fast pace involves coordination, movement, and quick reactions.</p>
+            </article>
 
-<main>
-    <section>
-        <h2>Hobbies &amp; Interests</h2>
-        <p>
-            Outside my studies and work, I enjoy playing football,
-            golf, and badminton.
-        </p>
+        </div>
+        <div class="hobbies-return reveal"><p>Explore my education, experience, and technical interests.</p>
+            <a class="text-link" href="index.html">View my resume</a></div>
+    </section>
 
-        <h3>Football</h3>
-        <p>
-            Football is one of the sports I enjoy playing.
-            It combines teamwork, communication, and quick
-            decision-making on the pitch.
-        </p>
-
-        <h3>Golf</h3>
-        <p>
-            I also enjoy playing golf. The sport involves
-            concentration, patience, and careful shot selection.
-        </p>
-
-        <h3>Badminton</h3>
-        <p>
-            Badminton is another sporting interest of mine.
-            Its fast pace involves coordination, movement,
-            and quick reactions.
-        </p>
+    <section class="closing reveal">
+        <div class="container closing-inner">
+            <div><p class="eyebrow">LET’S CONNECT</p><h2>Have an opportunity in Penang?</h2>
+                <p>For web development, IT support, and relevant career opportunities.</p></div>
+            <a class="button button-primary" href="contact.html">Get in touch</a>
+        </div>
     </section>
 </main>
 
-<footer>
-    <p>&copy; 2026 Hesshan Panjacharam</p>
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div><a class="footer-name" href="index.html">Hesshan S/O Panjacharam</a>
+            <p>Information Technology · Penang, Malaysia</p></div>
+        <nav aria-label="Footer navigation">
+            <a href="https://github.com/shann8888">GitHub</a>
+            <a href="contact.html">Contact</a>
+            <a href="#top">Back to top</a>
+        </nav>
+        <p class="copyright">&copy; 2026 Hesshan Panjacharam</p>
+    </div>
 </footer>
 </body>
 </html>
