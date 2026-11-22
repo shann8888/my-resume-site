@@ -63,7 +63,7 @@ Reference: [Managing remote repositories — GitHub Docs](https://docs.github.co
 
 [View my published resume website](https://shann8888.github.io/my-resume-site/)
 
-[Download my resume PDF](documents/resume.pdf)
+[Download my resume PDF](documents/Hesshan_Panjacharam_Resume.pdf)
 
 [Public website repository](https://github.com/shann8888/my-resume-site)
 
@@ -89,7 +89,7 @@ This website presents my resume, work experience, education, skills, certificati
 | `style.css` | Shared styling, responsive layouts, and light and dark colours |
 | `theme.js` | Theme switching, mobile navigation, and scroll animations |
 | `images/profile.png` | Profile portrait |
-| `documents/resume.pdf` | Downloadable resume |
+| `documents/Hesshan_Panjacharam_Resume.pdf` | Downloadable resume |
 
 The three pages share navigation and styling. The Home page includes section links that remain visible while scrolling. The website supports light and dark themes, saves the selected theme where browser storage is available, and respects reduced-motion preferences.
 
