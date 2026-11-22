@@ -1,242 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="Hesshan Panjacharam's resume: IT education, web development, technical support, and professional experience in Penang.">
-    <title>Hesshan Panjacharam | Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hesshan Panjacharam — Information Technology student in Penang, with experience in IT support, web development, and business operations.">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0c1419">
+    <meta property="og:title" content="Resume | Hesshan Panjacharam">
+    <meta property="og:description" content="Hesshan Panjacharam — Information Technology student in Penang, with experience in IT support, web development, and business operations.">
+    <meta property="og:type" content="website">
+    <title>Resume | Hesshan Panjacharam</title>
+    <!-- Set the saved theme before the stylesheet paints the page. -->
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <img class="profile-photo"
-         src="images/profile.png"
-         alt="Portrait of Hesshan Panjacharam"
-         width="245"
-         height="314">
-
-    <h1>Hesshan Panjacharam</h1>
-    <p>IT Student | Web Development &amp; IT Support</p>
-    <p>Bayan Lepas, Penang, Malaysia</p>
-
-    <nav aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<body id="top">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Hesshan Panjacharam home">
+            <span class="brand-mark" aria-hidden="true">HP</span>
+            <span class="brand-name">Hesshan<span>Panjacharam</span></span>
+        </a>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+            <ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="hobbies.html">Hobbies</a></li><li><a href="contact.html">Contact</a></li></ul>
+        </nav>
+        <div class="header-actions">
+            <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+                <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.8 13.2Z"/></svg>
+            </button>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span>Menu</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+            </button>
+        </div>
+    </div>
 </header>
+<main id="main-content" tabindex="-1">
+    <section class="hero container">
+        <div class="hero-copy">
+            <p class="eyebrow hero-entry">IT STUDENT · PENANG, MALAYSIA</p>
+            <h1 class="hero-entry">Hesshan<br><span>Panjacharam.</span></h1>
+            <p class="hero-role hero-entry">IT Support &amp; Operations <span>/ Web Development</span></p>
+            <p class="hero-description hero-entry">An Information Technology student bringing together IT support, web development, and hands-on operations experience.</p>
+            <div class="button-row hero-entry">
+                <a class="button button-primary" href="#experience">Explore experience</a>
+                <a class="button button-secondary" href="mailto:shanhesshan@gmail.com?subject=Resume%20request">Request resume</a>
+            </div>
+            <p class="hero-location hero-entry"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Bayan Lepas, Penang, Malaysia</p>
+        </div>
+        <figure class="hero-portrait hero-entry">
+            <div class="portrait-image">
+                <img src="images/profile.png" width="1147" height="1371" alt="Portrait of Hesshan Panjacharam" fetchpriority="high" decoding="async">
+            </div>
+            <figcaption><span>Hesshan S/O Panjacharam</span><span>IT student</span></figcaption>
+        </figure>
+    </section>
 
-<main>
-    <nav aria-label="Resume sections">
-        <a href="#about">About</a>
-        <a href="#career">Career Interests</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#certifications">Certifications</a>
+    <div class="fact-strip">
+        <div class="container fact-grid">
+            <div><span class="fact-label">CURRENT UNIVERSITY</span><p>Universiti Utara Malaysia</p></div>
+            <div><span class="fact-label">DIPLOMA CGPA</span><p>3.51</p></div>
+            <div><span class="fact-label">CAREER INTERESTS</span><p>Development &amp; IT support</p></div>
+        </div>
+    </div>
+
+    <nav class="container section-nav" aria-label="Resume sections">
+        <a href="#about">About</a><a href="#career">Career interests</a>
+        <a href="#experience">Experience</a><a href="#education">Education</a>
+        <a href="#skills">Skills</a><a href="#certifications">Certifications</a>
         <a href="#languages">Languages</a>
     </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am an Information Technology student at Universiti Utara
-            Malaysia with interests in web development and IT support.
-            My background includes an IT technician internship,
-            freelance development, and accommodation operations.
-        </p>
-        <p>
-            My experience includes supporting computer users,
-            developing web-based systems, managing databases,
-            preparing documentation, and coordinating with vendors.
-            I enjoy building useful applications and helping people
-            solve technical problems.
-        </p>
+    <section class="section container about-section" id="about">
+        <div class="section-heading reveal"><p class="eyebrow">ABOUT ME</p>
+            <h2>A practical approach<br>to <em>technology.</em></h2></div>
+        <div class="about-copy reveal"><p>I am an Information Technology student at Universiti Utara Malaysia with interests in web development and IT support. My background includes an IT technician internship, freelance development, and accommodation operations.</p>
+            <p>My experience includes supporting computer users, developing web-based systems, managing databases, preparing documentation, and coordinating with vendors. I enjoy building useful applications and helping people solve technical problems.</p></div>
     </section>
 
-    <section id="career">
-        <h2>Career Interests</h2>
-        <p>
-            I aim to pursue opportunities in Penang where I can
-            contribute to software development and IT support while
-            continuing to develop my technical skills.
-        </p>
-
-        <h3>Web Development</h3>
-        <p>
-            I am interested in creating clear, usable websites and
-            applications that support everyday tasks and business
-            operations.
-        </p>
-
-        <h3>IT Support</h3>
-        <p>
-            I am equally interested in troubleshooting hardware and
-            software, supporting users, and helping maintain reliable
-            computer systems.
-        </p>
+    <section class="section section-tinted" id="career">
+        <div class="container">
+            <div class="section-heading reveal"><p class="eyebrow">CAREER INTERESTS</p>
+                <h2>Where I’m <em>heading.</em></h2><p>I aim to pursue opportunities in Penang where I can contribute to software development and IT support while continuing to develop my technical skills.</p></div>
+            <div class="career-grid">
+                <article class="career-item reveal"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></svg></span>
+                    <h3>Web Development</h3><p>I am interested in creating clear, usable websites and applications that support everyday tasks and business operations.</p></article>
+                <article class="career-item reveal"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></span>
+                    <h3>IT Support</h3><p>I am equally interested in troubleshooting hardware and software, supporting users, and helping maintain reliable computer systems.</p></article>
+            </div>
+        </div>
     </section>
 
-    <section id="experience">
-        <h2>Selected Work Experience</h2>
+    <section class="section container" id="experience">
+        <div class="section-heading reveal"><p class="eyebrow">SELECTED WORK EXPERIENCE</p>
+            <h2>Experience with<br><em>real-world responsibilities.</em></h2></div>
+        <div class="timeline">
+            <article class="timeline-item reveal">
+                <div class="timeline-date">2025–2026</div>
+                <div class="timeline-content"><p class="company">GAT Hostel Management</p>
+                    <h3>Accommodation &amp; Facilities Assistant</h3><ul class="responsibilities"><li>Managed daily hostel accommodation operations for local and foreign workers.</li><li>Maintained resident documentation to support regulatory compliance.</li><li>Conducted property inspections and prepared maintenance reports.</li><li>Coordinated repair work and vendor activities.</li><li>Handled procurement of appliances, renovation materials, and maintenance supplies.</li><li>Supported fire drills, safety training, and audit preparation.</li></ul></div>
+            </article>
+            <article class="timeline-item reveal">
+                <div class="timeline-date">2024–2025</div>
+                <div class="timeline-content"><p class="company">Self-Employed, GMI Markets</p>
+                    <h3>Freelance Developer &amp; Introducing Broker</h3><ul class="responsibilities"><li>Developed customised web-based systems using HTML, CSS, JavaScript, PHP, and Python.</li><li>Designed and managed MySQL databases in local development environments using XAMPP.</li><li>Provided system customisation and technical consultation.</li><li>Assisted clients with onboarding and trading platform setup.</li></ul></div>
+            </article>
+            <article class="timeline-item reveal">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content"><p class="company">Inari Amertron Berhad</p>
+                    <h3>IT Technician Intern</h3><ul class="responsibilities"><li>Provided IT support in a production environment.</li><li>Assisted with hardware installation, software setup, and basic system configuration.</li><li>Supported troubleshooting activities to resolve technical issues.</li><li>Performed basic system checks to help reduce downtime.</li><li>Worked with senior IT staff to support smooth daily operations.</li></ul></div>
+            </article>
 
-        <h3>Accommodation &amp; Facilities Assistant</h3>
-        <p>GAT Hostel Management | 2025–2026</p>
-        <ul>
-            <li>
-                Managed daily hostel accommodation operations for
-                local and foreign workers.
-            </li>
-            <li>
-                Maintained resident documentation to support
-                regulatory compliance.
-            </li>
-            <li>
-                Conducted property inspections and prepared
-                maintenance reports.
-            </li>
-            <li>
-                Coordinated repair work and vendor activities.
-            </li>
-            <li>
-                Handled procurement of appliances, renovation
-                materials, and maintenance supplies.
-            </li>
-            <li>
-                Supported fire drills, safety training, and
-                audit preparation.
-            </li>
-        </ul>
-
-        <h3>Freelance Developer &amp; Introducing Broker</h3>
-        <p>Self-Employed, GMI Markets | 2024–2025</p>
-        <ul>
-            <li>
-                Developed customised web-based systems using
-                HTML, CSS, JavaScript, PHP, and Python.
-            </li>
-            <li>
-                Designed and managed MySQL databases in local
-                development environments using XAMPP.
-            </li>
-            <li>
-                Provided system customisation and technical
-                consultation.
-            </li>
-            <li>
-                Assisted clients with onboarding and trading
-                platform setup.
-            </li>
-        </ul>
-
-        <h3>IT Technician Intern</h3>
-        <p>Inari Amertron Berhad | 2024</p>
-        <ul>
-            <li>
-                Provided IT support in a production environment.
-            </li>
-            <li>
-                Assisted with hardware installation, software setup,
-                and basic system configuration.
-            </li>
-            <li>
-                Supported troubleshooting activities to resolve
-                technical issues.
-            </li>
-            <li>
-                Performed basic system checks to help reduce downtime.
-            </li>
-            <li>
-                Worked with senior IT staff to support smooth
-                daily operations.
-            </li>
-        </ul>
+        </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
+    <section class="section section-tinted" id="education">
+        <div class="container">
+            <div class="section-heading reveal"><p class="eyebrow">EDUCATION</p>
+                <h2>Building a strong<br><em>technical foundation.</em></h2></div>
+            <div class="education-grid">
+                <article class="education-card reveal">
+                    <div class="card-top"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c-4-3-9-2-9-2v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Zm0 0v16"/></svg></span><span class="date-label">2025–Present</span></div>
+                    <h3>Bachelor of Science with Honours (Information Technology)</h3><p class="institution">Universiti Utara Malaysia</p>
+                    <p class="education-note">Currently pursuing my undergraduate degree.</p>
+                </article>
+                <article class="education-card reveal">
+                    <div class="card-top"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c-4-3-9-2-9-2v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Zm0 0v16"/></svg></span><span class="date-label">2021–2025</span></div>
+                    <h3>Diploma in Information Technology</h3><p class="institution">Politeknik Balik Pulau</p>
+                    <p class="education-note">CGPA: 3.51</p>
+                </article>
 
-        <h3>Bachelor of Science with Honours (Information Technology)</h3>
-        <p>Universiti Utara Malaysia | 2025–Present</p>
-        <p>Currently pursuing my undergraduate degree.</p>
-
-        <h3>Diploma in Information Technology</h3>
-        <p>Politeknik Balik Pulau | 2021–2025</p>
-        <p>CGPA: 3.51</p>
+            </div>
+        </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills &amp; Competencies</h2>
+    <section class="section container" id="skills">
+        <div class="section-heading reveal"><p class="eyebrow">SKILLS &amp; COMPETENCIES</p>
+            <h2>Technical knowledge.<br><em>Practical strengths.</em></h2></div>
+        <div class="skills-grid">
+            <article class="skill-group reveal"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></svg></span>
+                <h3>Web Development &amp; Programming</h3><ul class="skill-list"><li>Web technologies: HTML, CSS, JavaScript, and PHP</li><li>Programming languages: Python, Java, C++, and Visual Basic</li><li>Database management: MySQL and SQL</li><li>Local development environments: XAMPP</li></ul></article>
+            <article class="skill-group reveal"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></span>
+                <h3>IT Support</h3><ul class="skill-list"><li>Hardware troubleshooting and software installation</li><li>Basic system configuration and maintenance</li><li>Technical documentation and reporting</li></ul></article>
+            <article class="skill-group reveal"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V4h8v3M3 12l9 3 9-3m-9 1v4"/></svg></span>
+                <h3>Operations &amp; Coordination</h3><ul class="skill-list"><li>Procurement and vendor coordination</li><li>Inventory control and purchasing support</li><li>Property inspections and maintenance reporting</li><li>Administrative documentation management</li><li>Safety activities and fire drill coordination</li></ul></article>
+            <article class="skill-group reveal"><span class="icon-box"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m2-16a3 3 0 0 1 0 6m1 3a5 5 0 0 1 3 5v2"/></svg></span>
+                <h3>Professional Strengths</h3><ul class="skill-list"><li>Communication and teamwork</li><li>Problem-solving and analytical thinking</li><li>Multitasking and time management</li><li>Customer service and client relations</li><li>Adaptability and self-motivation</li></ul></article>
 
-        <h3>Web Development &amp; Programming</h3>
-        <ul>
-            <li>Web technologies: HTML, CSS, JavaScript, and PHP</li>
-            <li>
-                Programming languages: Python, Java, C++,
-                and Visual Basic
-            </li>
-            <li>Database management: MySQL and SQL</li>
-            <li>Local development environments: XAMPP</li>
-        </ul>
-
-        <h3>IT Support</h3>
-        <ul>
-            <li>Hardware troubleshooting and software installation</li>
-            <li>Basic system configuration and maintenance</li>
-            <li>Technical documentation and reporting</li>
-        </ul>
-
-        <h3>Operations &amp; Coordination</h3>
-        <ul>
-            <li>Procurement and vendor coordination</li>
-            <li>Inventory control and purchasing support</li>
-            <li>Property inspections and maintenance reporting</li>
-            <li>Administrative documentation management</li>
-            <li>Safety activities and fire drill coordination</li>
-        </ul>
-
-        <h3>Professional Strengths</h3>
-        <ul>
-            <li>Communication and teamwork</li>
-            <li>Problem-solving and analytical thinking</li>
-            <li>Multitasking and time management</li>
-            <li>Customer service and client relations</li>
-            <li>Adaptability and self-motivation</li>
-        </ul>
+        </div>
     </section>
 
-    <section id="certifications">
-        <h2>Certifications &amp; Awards</h2>
+    <section class="section section-tinted" id="certifications">
+        <div class="container">
+            <div class="section-heading reveal"><p class="eyebrow">CERTIFICATIONS &amp; AWARDS</p>
+                <h2>Learning, recognised.</h2></div>
+            <div class="credentials-grid">
+                <article class="credential reveal"><span class="credential-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></svg></span>
+                    <div><h3>IT Technician Internship Certificate</h3><p>Inari Amertron Berhad | 2024</p></div></article>
+                <article class="credential reveal"><span class="credential-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></svg></span>
+                    <div><h3>Introduction to Cloud</h3><p>IBM | Certified Learner, Passing Grade</p></div></article>
+                <article class="credential reveal"><span class="credential-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></svg></span>
+                    <div><h3>Cybersecurity Fundamentals</h3><p>IBM SkillsBuild | Certificate of Completion</p></div></article>
+                <article class="credential reveal"><span class="credential-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></svg></span>
+                    <div><h3>AI For My Future</h3><p>Microsoft &amp; Pepper Labs | Certificate of Completion</p></div></article>
+                <article class="credential reveal"><span class="credential-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></svg></span>
+                    <div><h3>Head of Department Academic Excellence Award</h3><p>Politeknik Balik Pulau | 2022</p></div></article>
 
-        <h3>IT Technician Internship Certificate</h3>
-        <p>Inari Amertron Berhad | 2024</p>
-
-        <h3>Introduction to Cloud</h3>
-        <p>IBM | Certified Learner, Passing Grade</p>
-
-        <h3>Cybersecurity Fundamentals</h3>
-        <p>IBM SkillsBuild | Certificate of Completion</p>
-
-        <h3>AI For My Future</h3>
-        <p>Microsoft &amp; Pepper Labs | Certificate of Completion</p>
-
-        <h3>Head of Department Academic Excellence Award</h3>
-        <p>Politeknik Balik Pulau | 2022</p>
+            </div>
+        </div>
     </section>
 
-    <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>English — Advanced proficiency</li>
-            <li>Bahasa Melayu — Advanced proficiency</li>
-            <li>Tamil — Advanced proficiency</li>
-        </ul>
+    <section class="section container" id="languages">
+        <div class="section-heading reveal"><p class="eyebrow">LANGUAGES</p>
+            <h2>Communication<br><em>across languages.</em></h2></div>
+        <div class="language-grid">
+            <article class="language-item reveal"><h3>English</h3><p>Advanced proficiency</p></article>
+            <article class="language-item reveal"><h3>Bahasa Melayu</h3><p>Advanced proficiency</p></article>
+            <article class="language-item reveal"><h3>Tamil</h3><p>Advanced proficiency</p></article>
+        </div>
+    </section>
+
+    <section class="closing reveal">
+        <div class="container closing-inner">
+            <div><p class="eyebrow">LET’S CONNECT</p><h2>Have an opportunity in Penang?</h2>
+                <p>For web development, IT support, and relevant career opportunities.</p></div>
+            <a class="button button-primary" href="contact.html">Get in touch</a>
+        </div>
     </section>
 </main>
 
-<footer>
-    <p>&copy; 2026 Hesshan Panjacharam</p>
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div><a class="footer-name" href="index.html">Hesshan S/O Panjacharam</a>
+            <p>Information Technology · Penang, Malaysia</p></div>
+        <nav aria-label="Footer navigation">
+            <a href="https://github.com/shann8888">GitHub</a>
+            <a href="contact.html">Contact</a>
+            <a href="#top">Back to top</a>
+        </nav>
+        <p class="copyright">&copy; 2026 Hesshan Panjacharam</p>
+    </div>
 </footer>
 </body>
 </html>
