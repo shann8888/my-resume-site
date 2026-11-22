@@ -234,13 +234,47 @@ ul { margin: 0; padding: 0; }
 .fact-grid > div:last-child { padding-right: 0; }
 .fact-label { color: var(--muted); font-size: 0.8125rem; letter-spacing: 0.08em; }
 .fact-grid p { margin: 5px 0 0; font-size: 1.125rem; font-weight: 500; }
-.section-nav { display: flex; flex-wrap: wrap; gap: 10px 26px; padding-block: 28px; border-bottom: 1px solid var(--line); }
-.section-nav a { padding: 4px 0; color: var(--muted); font-size: 0.875rem; text-decoration: none; }
-.section-nav a:hover { color: var(--accent); text-decoration: underline; }
+/* Keep Home's section links visible below the main header. */
+.section-nav {
+    position: sticky;
+    top: 88px;
+    z-index: 20;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    border: 1px solid var(--line);
+    border-radius: 0 0 10px 10px;
+    background: var(--surface);
+    scrollbar-width: thin;
+    scrollbar-color: var(--muted) transparent;
+}
+.section-nav a {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.section-nav a:hover {
+    color: var(--accent);
+    background: var(--surface-alt);
+    text-decoration: none;
+}
 
 /* Resume sections use varied layouts with a shared spacing scale. */
 #main-content { scroll-margin-top: 90px; }
-.section { padding-block: 90px; scroll-margin-top: 24px; }
+.section { padding-block: 90px; scroll-margin-top: 112px; }
 .section-tinted { background: var(--surface); border-block: 1px solid var(--line); }
 .section-heading { margin-bottom: 44px; max-width: 720px; }
 .section-heading > p:last-child:not(.eyebrow) { margin-top: 22px; max-width: 650px; color: var(--muted); }
@@ -376,7 +410,11 @@ ul { margin: 0; padding: 0; }
     .fact-grid > div, .fact-grid > div:first-child, .fact-grid > div:last-child { padding: 18px 0; border-left: 0; border-top: 1px solid var(--line); }
     .fact-grid > div:first-child { border-top: 0; }
     .fact-grid p { font-size: 1.0625rem; }
-    .section-nav { gap: 8px 22px; padding-block: 22px; }
+    .section-nav {
+        top: 76px;
+        gap: 6px;
+        padding: 8px 10px;
+    }
     .section { padding-block: 58px; }
     .section-heading { margin-bottom: 32px; }
     .about-section { grid-template-columns: 1fr; gap: 28px; }
